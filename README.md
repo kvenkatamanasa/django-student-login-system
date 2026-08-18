@@ -1179,19 +1179,6 @@ B.Tech – Computer Science & Engineering
 
 **Completed**
 
-Current workflow:
-
-```text
-Signup
-   ↓
-Enter Student Details
-   ↓
-Store User in MySQL
-   ↓
-Login
-   ↓
-Validate Username & Password
-   ↓
 Successful / Invalid Login Output
 ```
 
