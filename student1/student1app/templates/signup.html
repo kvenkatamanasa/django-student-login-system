@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup</title>
+</head>
+
+<body>
+
+    <h2>User Registration</h2>
+
+    {% if msg %}
+        <p style="color:red;">{{ msg }}</p>
+    {% endif %}
+
+    <form method="post">
+
+        {% csrf_token %}
+
+        <label>Username:</label>
+        <br>
+        <input type="text" name="t1" required>
+        <br><br>
+
+        <label>Password:</label>
+        <br>
+        <input type="password" name="t2" required>
+        <br><br>
+
+        <label>Contact No:</label>
+        <br>
+        <input type="text" name="t3" required>
+        <br><br>
+
+        <label>Email:</label>
+        <br>
+        <input type="email" name="t4" required>
+        <br><br>
+
+        <label>Address:</label>
+        <br>
+        <textarea name="t5" required></textarea>
+        <br><br>
+
+        <input type="submit" value="Signup">
+
+    </form>
+
+</body>
+</html>
